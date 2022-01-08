@@ -117,6 +117,7 @@ li {
   transition: color,border-color ease 0.3s;
   border-radius: 1rem;
 }
+
 .home-button a:hover {
   border-color: #dee9e6;
   color: rgba(20, 114, 111, 0.699);
