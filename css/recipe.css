@@ -1,0 +1,139 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  background: linear-gradient(180deg, rgb(170, 180, 182), rgb(140, 163, 162));
+  text-align: center;
+  font-family: 'palatino';
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+li {
+  margin: 10px 0;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.top-page {
+  background: rgba(208, 219, 219, 0.932);
+  width: 70%;
+  max-width: 50rem;
+  margin: 1rem auto;
+  border: solid 1px black;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.title {
+  font-family: "oswald";
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0.75rem;
+  grid-column: 1 / -1;
+}
+
+.img {
+  border-radius: 10px;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  margin: 0 1rem;
+  box-shadow: 0 4px 8px 0 rgba(25, 88, 85, 0.5);
+}
+
+.description {
+  text-align: left;
+  width: 90%;
+  margin: -1rem auto 0;
+  padding: 0 1rem 1rem;
+}
+
+.food-title {
+  margin: 0;
+  font-family: "oswald";
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.list-title {
+  font-size: 0.8rem;
+  font-family: "oswald";
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.container {
+  width: 70%;
+  max-width: 50rem;
+  display: grid;
+  margin: 1rem auto;
+  width: min(90% 200px);
+  grid-template-columns: 1fr 2fr;
+  gap: 1em;
+}
+
+.ingredients {
+  background: rgba(208, 219, 219, 0.932);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.directions {
+  background: rgba(208, 219, 219, 0.932);
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.home-button {
+  left: 0rem;
+  width: 7rem;
+  margin: 1rem auto;
+  padding: 1rem auto;
+}
+
+.home-button a {
+  display: block;
+  margin-bottom: 2rem;
+  padding: 0.5rem 2rem;
+  border: solid 1px black;
+  font-family: 'oswald', sans-serif;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background: rgba(208, 219, 219, 0.932);
+  transition: color,border-color ease 0.3s;
+  border-radius: 1rem;
+}
+.home-button a:hover {
+  border-color: #dee9e6;
+  color: rgba(20, 114, 111, 0.699);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "palatino";
+  src: url(../font/palatino_light.ttf);
+}
+
+@font-face {
+  font-family: "noto";
+  src: url(../font/NotoSerifDisplay_Condensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url(../font/oswald.ttf);
+}
