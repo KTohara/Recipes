@@ -3,9 +3,11 @@
 body {
   background: linear-gradient(180deg, rgb(170, 180, 182), rgb(140, 163, 162));
   text-align: center;
-  font-family: 'palatino';
-  font-size: 1rem;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 500;
   line-height: 1.5;
+  color: rgba(14, 15, 15, 0.767);
 }
 
 li {
@@ -28,9 +30,9 @@ li {
 }
 
 .title {
-  font-family: "oswald";
-  letter-spacing: 0.2rem;
-  font-size: 1.5rem;
+  font-family: "oswald", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 1.75em;
   font-weight: 500;
   text-transform: uppercase;
   margin: 0.75rem;
@@ -38,7 +40,7 @@ li {
 }
 
 .img {
-  border-radius: 10px;
+  border-radius: 3px;
   width: 100%;
   height: 90%;
   object-fit: cover;
@@ -55,16 +57,16 @@ li {
 
 .food-title {
   margin: 0;
-  font-family: "oswald";
-  letter-spacing: 0.2rem;
-  font-size: 1.5rem;
+  font-family: "oswald", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 1.5em;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .list-title {
-  font-size: 0.8rem;
-  font-family: "oswald";
+  font-size: 1em;
+  font-family: "oswald", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   text-align: left;
 }
@@ -84,7 +86,7 @@ li {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.95em;
 }
 
 .directions {
@@ -92,7 +94,7 @@ li {
   border: 1px solid black;
   border-radius: 10px;
   padding: 1rem;
-  font-size: 0.9rem;
+  font-size: 0.95em;
 }
 
 .home-button {
@@ -107,11 +109,11 @@ li {
   margin-bottom: 2rem;
   padding: 0.5rem 2rem;
   border: solid 1px black;
-  font-family: 'oswald', sans-serif;
+  font-family: 'oswald', Arial, Helvetica, sans-serif;
   text-align: center;
   letter-spacing: 0.1rem;
   text-decoration: none;
-  color: black;
+  color: rgba(14, 15, 15, 0.767);
   cursor: pointer;
   background: rgba(208, 219, 219, 0.932);
   transition: color,border-color ease 0.3s;
@@ -119,7 +121,7 @@ li {
 }
 
 .home-button a:hover {
-  border-color: #dee9e6;
+  border-color: rgba(20, 114, 111, 0.699);
   color: rgba(20, 114, 111, 0.699);
   text-decoration: none;
 }
@@ -130,11 +132,11 @@ li {
 }
 
 @font-face {
-  font-family: "noto";
-  src: url(../font/NotoSerifDisplay_Condensed-Regular.ttf);
+  font-family: "oswald";
+  src: url(../font/oswald.ttf);
 }
 
 @font-face {
-  font-family: "oswald";
-  src: url(../font/oswald.ttf);
+  font-family: 'roboto';
+  src: url(../font/roboto.ttf);
 }
